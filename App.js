@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client"
 {
   /* <div class="parent">
         <div class="child">
@@ -17,10 +19,20 @@ let h1tag = React.createElement(
   )
 );
 
+let h1Tag2 = (<h1 className="child"> I am h1 tag using JSX 
+              </h1>)
+
 // in this part I am creating the nested component  
+
+
+function Paragragh(){
+  return (
+    <p className="ptag"> I am p tag </p>
+  )
+}
 
 console.log(h1tag); // this H1tag is React element ( object )
 
 let root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(h1tag); // render work is to create the object( react element ) into HTML and put it into the HTML
+root.render(<Paragragh/>); // render work is to create the object( react element ) into HTML and put it into the HTML
