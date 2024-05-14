@@ -32,4 +32,17 @@
 - 2) functional component is uses functions ( It returns JSX code )
 - 3) You must write the first letter of functionalcomponent character capital 
 - 4) If you are using a component inside a component then it is called component composition 
-- 5) 
+
+
+# props 
+- 1) Passing a arguments to the function is just like passing data to components is props 
+- 2) We have to pass key to mutiple elements, so that react can identify the changes 
+- 3) If we dont provide key that react will re-render all the cards, but if there is a key then only changes the renders 
+- 4) Don't use array index as key (We don’t recommend using indexes for keys if the order of items may change. This can negatively impact performance and may cause issues with component state. )
+
+
+# Hooks 
+- 1) 
+- 2) 
+- 3) 
+- 4) 
